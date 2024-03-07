@@ -1,0 +1,6 @@
+numpy==1.23.4
+control==0.9.4
+scipy==1.11.3
+hdf5storage==0.1.19
+Pillow==9.4.0
+matplotlib==3.7.0
