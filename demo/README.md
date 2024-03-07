@@ -14,7 +14,7 @@ y_d : Head position in discrete time
 y_cp : Displacement of PZT actuator
 
 Use Case Description
-A selection of system models has been made available for reference. These models can be found in the files Plot_Control_System.py and Function_Simulation.py, in the section labeled ‘plant.m’. A total of 9 cases of this system have been included for users to explore. Users can create their own system by defining approximate continuous-time systems, examples being any of the 9 use cases, or adjust the VCM and PZT parameters as indicated in the subsection ‘Plant parameter’.
+A selection of system models has been made available for reference. These models can be found in the file plant.py. A total of 9 cases of this system have been included for users to explore. Users can create their own system by defining approximate continuous-time systems, examples being any of the 9 use cases, or adjust the VCM and PZT parameters as indicated in the subsection ‘Plant parameter’.
 
 Parameters of the nominal controlled object are shown in the following paper.
 T. Atsumi and S. Yabui, “Quadruple-Stage Actuator System for Magnetic-Head Positioning System in HDDs,”
