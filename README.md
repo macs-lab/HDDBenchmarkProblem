@@ -7,8 +7,8 @@ Vol. 67, No. 11, pp. 9184-9194, (2020-11), DOI: 10.1109/TIE.2019.2955432
 
 
 ## Repository Structure 
-.
-└── HDDBenchmarkProblem-main
+
+    .
     ├── Data_RRO.txt
     ├── Fre_Resp.json
     ├── README.md
