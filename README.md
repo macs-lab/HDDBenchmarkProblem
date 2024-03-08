@@ -108,13 +108,11 @@ To engage with the project's simulation and plotting functionalities, execute th
     python simulate_trackfollow.py
     ```
 
-- **For Frequency Response Plotting:**
   - To visualize frequency responses, execute:
     ```bash
     python plot_control_system.py
     ```
 
-- **For Controller Simulation:**
   - For simulating the controller, use the command:
     ```bash
     python function_simulation.py
