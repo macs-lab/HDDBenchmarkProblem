@@ -71,36 +71,53 @@ Vol. 67, No. 11, pp. 9184-9194, (2020-11), DOI: 10.1109/TIE.2019.2955432
 - The `__pycache__` directory caches Python bytecode, speeding up subsequent executions of the scripts.
 - Additional `README.md` files may be found in subdirectories like `demo`, offering specific guidance or demonstrations related to the project.
 
-This structure is modeled closely after the Matlab reference, with scripts and data organized to facilitate easy navigation and understanding of the HDD benchmark problem simulations and their analyses.
+# HDD Benchmark Problem Simulation and Analysis
 
+The organization and content of this repository are inspired by a Matlab reference structure, designed to enhance the navigability and understanding of Hard Disk Drive (HDD) benchmark problem simulations and their analyses.
 
-Installation:
-todo
+## Installation and Environment Setup
 
-Environment:
-This project was tested on python 3.11.0
-numpy==1.23.4
-control==0.9.4
-scipy==1.11.3
-matplotlib==3.7.0
+### Environment Requirements
+This project is compatible with Python 3.11.0 and requires specific package versions to function correctly:
 
-Running: todo
+- numpy 1.23.4
+- control 0.9.4
+- scipy 1.11.3
+- matplotlib 3.7.0
 
-1. Download the code.
+### Setting Up the Environment
 
-2. Unzip it.
+Follow these steps to prepare the environment for running the simulations and analyses:
 
-3. Install the environment by the following command:
-    pip install -r environments.txt
+1. **Download and Unzip:**
+   - Download the code package and extract its contents.
 
-4(a). If you only want to plot the simulation results, you must first have run the controller simulation. 
-      run the 'simulate_trackfollow.py' by using the following command:
+2. **Install Dependencies:**
+   - Use pip to install the necessary Python packages:
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+## Running the Project
+
+To engage with the project's simulation and plotting functionalities, execute the appropriate scripts as follows, depending on your objectives:
+
+- **For Plotting Simulation Results:**
+  - Prior execution of the controller simulation is required. Run the following command:
+    ```bash
     python simulate_trackfollow.py
+    ```
 
-4(b). If you want to plot the frequency response, 
-      run the 'Plot_ControlSystem_.py' by using the following command:
-    python Plot_ControlSystem_.py
+- **For Frequency Response Plotting:**
+  - To visualize frequency responses, execute:
+    ```bash
+    python plot_control_system.py
+    ```
 
-4(c). If you want to simulation the controller,
-      run the 'Function_Simulation.py' by using the following command: 
-    python Function_Simulation.py
+- **For Controller Simulation:**
+  - For simulating the controller, use the command:
+    ```bash
+    python function_simulation.py
+    ```
+
+This guide is aimed at facilitating a smooth setup and execution process for the HDD benchmark simulation project.
