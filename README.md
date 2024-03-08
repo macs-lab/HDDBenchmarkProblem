@@ -27,23 +27,8 @@ The adaptation is inspired by and based on the research and methodologies outlin
     ├── plant.py
     ├── plot_control_system.py
     ├── plot_result
-    │   ├── figure10_The_Frequency_Response_of_Pc_pzt.png
-    │   ├── figure11_Multi-rate_filter.png
-    │   ├── figure12_The_Frequency_Response_of_Pd_vcm.png
-    │   ├── figure13_The_Frequency_Response_of_Pd_pzt.png
-    │   ├── figure14_The_Frequency_Response_of_Cd_vcm.png
-    │   ├── figure15_The_Frequency_Response_of_Cd_vcm.png
-    │   ├── figure16_Openloop(Bode Plot).png
-    │   ├── figure18_Sensitive_Function.png
-    │   ├── figure1_Amplitude_spectrum_of_df.png
-    │   ├── figure2_Amplitude_spectrum_of_dp.png
-    │   ├── figure3_dRRO.png
-    │   ├── figure4_ypc.png
-    │   ├── figure5_Max_of_abs(ycp).png
-    │   ├── figure6_yc.png
-    │   ├── figure7_Amplitude_spectrum_of_yc.png
-    │   ├── figure8_3_sigma_of_yc.png
-    │   └── figure9_The_Frequency_Response_of_Pc_vcm.png
+    │   ├── ... Figures
+    │ 
     ├── requirements.txt
     ├── simulate_trackfollow.py
     └── utils.py
