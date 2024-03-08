@@ -1,9 +1,9 @@
-This project is a Matlab to python translation of the Matlab file: Magnetic-head positioning control system in HDDs
-Takenori Atsumi (2024). Magnetic-head positioning control system in HDDs (https://www.mathworks.com/matlabcentral/fileexchange/111515-magnetic-head-positioning-control-system-in-hdds), MATLAB Central File Exchange
-Which is based on the the reference paper: T. Atsumi and S. Yabui, 
-“Quadruple-Stage Actuator System for Magnetic-Head Positioning System 
-in HDDs”, The IEEE Transactions on Industrial Electronics, 
-Vol. 67, No. 11, pp. 9184-9194, (2020-11), DOI: 10.1109/TIE.2019.2955432
+# Magnetic-Head Positioning Control System in HDDs - Python Version
+
+This project serves as a Python adaptation of Takenori Atsumi's original Matlab project, "Magnetic-head Positioning Control System in HDDs." The Matlab version can be found on the MATLAB Central File Exchange, uploaded in 2024, and is available through the following link: [Magnetic-head Positioning Control System in HDDs](https://www.mathworks.com/matlabcentral/fileexchange/111515-magnetic-head-positioning-control-system-in-hdds).
+
+The adaptation is inspired by and based on the research and methodologies outlined in the reference paper by T. Atsumi and S. Yabui, titled "Quadruple-Stage Actuator System for Magnetic-Head Positioning System in HDDs." This paper was published in The IEEE Transactions on Industrial Electronics, Volume 67, Issue 11, on pages 9184-9194, in November 2020. The DOI for this paper is: 10.1109/TIE.2019.2955432.
+
 
 
 ## Repository Structure 
