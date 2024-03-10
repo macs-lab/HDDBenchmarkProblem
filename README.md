@@ -102,5 +102,3 @@ To engage with the project's simulation and plotting functionalities, execute th
     ```bash
     python function_simulation.py
     ```
-
-This guide is aimed at facilitating a smooth setup and execution process for the HDD benchmark simulation project.
