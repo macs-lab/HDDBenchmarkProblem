@@ -277,7 +277,7 @@ def Function_simulation(Sys_Pc_vcm,Sys_Pc_pzt,Sys_Cd_vcm,Sys_Fm_vcm,Sys_Cd_pzt,S
         x_Dp3=dx_Dp3
         y_Dp3=dy_Dp3
         dx_Dp3=A_Dp3@x_Dp3+B_Dp3*u_random4[n] # A_Dp3*x_Dp3+B_Dp3*u_random4[n]
-        dy_Dp3= np.dot(C_Dp3,dx_Dp3)# C_Dp3*dx_Dp3
+        dy_Dp3= np.dot(C_Dp3,dx_Dp3) # C_Dp3*dx_Dp3
         x_Dp4=dx_Dp4
         y_Dp4=dy_Dp4
         dx_Dp4=A_Dp4@x_Dp4+B_Dp4*u_random5[n]
