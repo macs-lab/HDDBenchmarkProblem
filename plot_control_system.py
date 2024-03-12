@@ -130,7 +130,7 @@ Fr_S=1./(1+Fr_L)
 # Fr_Pc_vcm_all
 
 save_path = get_plot_path("figure9_The_Frequency_Response_of_Pc_vcm.png")
-title = 'The Frequency Response of Pc_vcm' 
+title = 'The Frequency Response of $Pc_{vcm}$' 
 Fr_Pc_vcm_all_mag = 20*np.log10(abs(Fr_Pc_vcm_all).T)
 Fr_Pc_vcm_all_phase = 180*(np.angle(Fr_Pc_vcm_all).T)/np.pi - 180
 Freq_Resp_Plot(Fr_Pc_vcm_all_mag, Fr_Pc_vcm_all_phase, f, title, (-360,0), save_path)
@@ -139,7 +139,7 @@ Freq_Resp_Plot(Fr_Pc_vcm_all_mag, Fr_Pc_vcm_all_phase, f, title, (-360,0), save_
 # Fr_Pc_pzt_all
 
 save_path = get_plot_path("figure10_The_Frequency_Response_of_Pc_pzt.png")
-title = 'The Frequency Response of Pc_pzt' 
+title = 'The Frequency Response of $Pc_{pzt}$' 
 Fr_Pc_pzt_all_mag = 20*np.log10(abs(Fr_Pc_pzt_all).T)
 Fr_Pc_pzt_all_phase = 180*(np.angle(Fr_Pc_pzt_all).T)/np.pi
 Freq_Resp_Plot(Fr_Pc_pzt_all_mag, Fr_Pc_pzt_all_phase, f, title, (-180,180), save_path)
@@ -159,7 +159,7 @@ Multi_Rate_Filter_Plot(Fr_Fm_vcm_mag, Fr_Fm_vcm_phase, Fr_Fm_pzt_mag, Fr_Fm_pzt_
 # Fr_Pd_vcm_all
 
 save_path = get_plot_path("figure12_The_Frequency_Response_of_Pd_vcm.png")
-title = 'The Frequency Response of Pd_vcm' 
+title = 'The Frequency Response of $Pd_{vcm}$' 
 Fr_Pd_vcm_all_mag = 20*np.log10(abs(Fr_Pd_vcm_all).T)
 Fr_Pd_vcm_all_phase = 180*(np.angle(Fr_Pd_vcm_all).T)/np.pi - 180
 Freq_Resp_Plot(Fr_Pd_vcm_all_mag, Fr_Pd_vcm_all_phase, f, title, (-360,90), save_path)
@@ -168,7 +168,7 @@ Freq_Resp_Plot(Fr_Pd_vcm_all_mag, Fr_Pd_vcm_all_phase, f, title, (-360,90), save
 # Fr_Pd_pzt_all
 
 save_path = get_plot_path("figure13_The_Frequency_Response_of_Pd_pzt.png")
-title = 'The Frequency Response of Pd_pzt' 
+title = 'The Frequency Response of $Pd_{pzt}$' 
 Fr_Pd_pzt_all_mag = 20*np.log10(abs(Fr_Pd_pzt_all).T)
 Fr_Pd_pzt_all_phase = 180*(np.angle(Fr_Pd_pzt_all).T)/np.pi
 Freq_Resp_Plot(Fr_Pd_pzt_all_mag, Fr_Pd_pzt_all_phase, f, title, (-180,180), save_path)
@@ -177,7 +177,7 @@ Freq_Resp_Plot(Fr_Pd_pzt_all_mag, Fr_Pd_pzt_all_phase, f, title, (-180,180), sav
 # Fr_Cd_vcm
 
 save_path = get_plot_path("figure14_The_Frequency_Response_of_Cd_vcm.png")
-title = 'The Frequency Response of Cd_vcm' 
+title = 'The Frequency Response of $Cd_{vcm}$' 
 Fr_Cd_vcm_mag = 20*np.log10(abs(Fr_Cd_vcm).T)
 Fr_Cd_vcm_phase = 180*(np.angle(Fr_Cd_vcm).T)/np.pi
 Freq_Resp_Plot(Fr_Cd_vcm_mag, Fr_Cd_vcm_phase, f, title, (-180, 180), save_path)
@@ -186,7 +186,7 @@ Freq_Resp_Plot(Fr_Cd_vcm_mag, Fr_Cd_vcm_phase, f, title, (-180, 180), save_path)
 # Fr_Cd_pzt
 
 save_path = get_plot_path("figure15_The_Frequency_Response_of_Cd_vcm.png")
-title = 'The Frequency Response of Cd_vcm' 
+title = 'The Frequency Response of $Cd_{vcm}$' 
 Fr_Cd_pzt_mag = 20*np.log10(abs(Fr_Cd_pzt).T)
 Fr_Cd_pzt_phase = 180*(np.angle(Fr_Cd_pzt).T)/np.pi
 Freq_Resp_Plot(Fr_Cd_pzt_mag, Fr_Cd_pzt_phase, f, title, (-180, 180), save_path)

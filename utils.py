@@ -425,7 +425,7 @@ def Multi_Rate_Filter_Plot(Fr_Resp_1_Mag, Fr_Resp_1_Phase, Fr_Resp_2_Mag, Fr_Res
     plt.xscale('log')
     l1 = []
     l2 = []
-    label = ['Fr_Fm_vcm', 'Fr_Fm_pzt']
+    label = ['Fr_Fm$_{vcm}$', 'Fr_Fm$_{pzt}$']
 
     # The setting of subfigure 1
     ax1 = ax[0]
